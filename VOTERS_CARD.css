@@ -1,0 +1,74 @@
+* {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(INEC.jpeg);
+      /* background: linear-gradient(135deg, #e8f0ff, #f9fbff);  */
+      /* background-color: darkred; */
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    
+
+    .container {
+      width: 100%;
+      max-width: 500px;
+      background:gray;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      padding: 28px;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 0 0 20px;
+      color: #222;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 11px 12px;
+      border: 1px solid #cfd8e3;
+      border-radius: 8px;
+      outline: none;
+      font-size: 15px;
+    }
+
+    input:focus, select:focus {
+      border-color: #2d6cdf;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      /* background: #2d6cdf; */
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+
+    button:hover {
+      background: green;
+    }
